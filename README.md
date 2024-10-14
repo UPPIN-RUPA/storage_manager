@@ -100,56 +100,6 @@ Below is a run on Ubuntu
 ![Example Image](Screenshot 2024-02-14 at 5.49.52 PM.png)
 
 
-**Team Contributions**
-
-Manju:
-Wrote Below Functions and performed Testing on it.
-
-initStorageManager(void)
-
-createPageFile(char *fileName)
-
-openPageFile(char *fileName, SM_FileHandle *fHandle)
-
-closePageFile(SM_FileHandle *fHandle)
-
-destroyPageFile(char *fileName)
-
-readBlock(int pageNum, SM_FileHandle *fHandle, SM_PageHandle memPage)
-
-getBlockPos(SM_FileHandle *fHandle)
-
-readFirstBlock(SM_FileHandle *fHandle, SM_PageHandle memPage)
-
-readPreviousBlock(SM_FileHandle *fHandle, SM_PageHandle memPage)
-
-readCurrentBlock(SM_FileHandle *fHandle, SM_PageHandle memPage)
-
-writeBlock(int pageNum, SM_FileHandle *fHandle, SM_PageHandle memPage)
-
-ensureCapacity(int numberOfPages, SM_FileHandle *fHandle)
-
-readNextBlock(SM_FileHandle *fHandle, SM_PageHandle memPage)
-
-Rupa:
-
-Wrote Below Functions and performed Testing on it.
-
-readLastBlock(SM_FileHandle *fHandle, SM_PageHandle memPage)
-
-Additional contribution to writeBlock(int pageNum, SM_FileHandle *fHandle, SM_PageHandle memPage)
-
-Vanaja:
-
-Wrote Below Functions and performed Testing on it. Performed Memory Leaks testing.
-
-appendEmptyBlock(SM_FileHandle *fHandle)
-
-Memory Leaks
-
-Mohit:
-Wrote Below Functions and performed Testing on it. Performed Memory Leaks testing.
-
 writeCurrentBlock(SM_FileHandle *fHandle, SM_PageHandle memPage)
 
 Memory Leaks
